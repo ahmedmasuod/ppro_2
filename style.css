@@ -1,0 +1,290 @@
+body,html{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+
+  height: 100%;
+  top: 100%;
+  font-family: Helvetica; 
+  /* overflow-x: hidden; */
+  }
+
+  
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width:100%;
+    background-color:cyan;
+    height:auto;
+    }
+    img{
+            width:100%;
+            height:auto;
+
+            background-size:cover;
+            background-position: center;
+    }
+  
+    /* navi-sarawa */
+    .nav_sar{
+      background-color: rgb(42, 101, 141);
+      height: 120px;
+
+      display: flex;
+      justify-content: center;
+    }
+    .navbar-brand{
+      margin-left: 10%;
+    }
+    .ul1{
+       /* background-color: red;*/
+     width: 60%;
+     display: flex;
+     justify-content: center;
+    
+    
+      margin-left:10%;
+    
+    }
+    .ul1>li ,.name_compa{
+     display: flex;
+      justify-content: center;
+      padding-left:30px;
+    }
+@media screen and (max-width:993px){
+    .nav_sar{
+        height:200px;
+      }
+      .navbar-brand{
+        margin-left:0%;
+      }
+      .ul1{
+      width:100%;
+      margin-left:0%;
+     }
+}
+
+ /* dwam_part_la_header_navi  */
+
+    /* before   && after */
+    li{
+        position: relative;
+    }
+    .li2>a{
+        color:white !important;
+        font-weight: bolder;
+        }
+    
+     .li2:after{
+        content:'';
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+                width:0%;
+                height:10%;
+            background: rgb(101, 125, 201);
+ 
+            z-index: -1;
+          transition:all 0.2s;
+    }
+    .li2:hover:after{
+        width:100%;
+    } 
+    .li2:hover a{
+    color: rgb(101, 125, 201) !important;
+    }
+/* dwam_part_la_header_navi __________ tawaw */
+
+/* axir part_____________________la header */
+        .div1{
+            height:auto;
+          background-color:rgb(130, 174, 192);
+          }
+        .div1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div1 > form{
+            width: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+/* axir part_____________________la header_______tawaw */
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* second___________________________________section */
+
+.left_1_sec_2{
+  background-color:rgb(130, 174, 192); 
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 0px !important;
+}
+.left_2_sec_2{
+
+    color:white;
+    text-align: center;
+    font-size:1.4em;
+}
+.hr_sec_section{
+  width:100%;
+  position: relative;
+  left:-20px;
+}
+
+ /* sign in  ____and ___signUp */
+.lablo{
+  color: white;
+}
+
+@media screen and (max-width: 352px){
+.sratafoot {
+    /* margin: 20px 0; */
+    text-align: center;
+}
+}
+
+/* second___________________________________section______________tawaw */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer */
+    
+    h5{
+      color: white;
+    }
+    .list-unstyled>li>a{
+      color: rgb(117, 115, 115);
+    }
+
+
+    .ba{
+      height:40px; 
+          min-width:177px;  /*wata la 177 bchuktr nabe*/
+
+  }
+  .ba a {
+      display:inline;
+      padding:10px 15px;
+      font-size:20px;
+      text-align:center;
+      text-decoration:none;
+      margin:5px;
+      border-radius:50%;}
+    .ba a:hover {
+        opacity: 0.7;}
+    .ba a:active{
+        opacity:0.2;}
+    .fa-facebook {
+      background: #3B5998;
+      color: white;}
+
+    .fa-facebook:hover {
+      color: rgb(0, 0, 0);}
+
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;}
+    .fa-google {
+      background: #dd4b39;
+      color: white;}
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;}
+
+      @media screen and (max-width: 576px){
+        .rowfoot{
+          text-align: center;
+        }
+        .sratafoot{
+          margin:20px 0;
+        }
+      }
+      img{
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      
+      }
+ 
+  .div11{
+    width:100%;
+    height: auto;
+    background-color:chartreuse;
+    margin:auto;
+        display: block;
+        position: relative;
+        left: 0;
+        right: 0;
+  }
+  .divaka{
+    width:auto;
+    max-height:100%;
+    background-color: rgb(42, 101, 141 ,0.8);
+    position:absolute;
+    z-index:1;
+    top:-2%;
+    right:12%;
+    font-size: 22px;
+    padding: 0 5%; 
+    line-height: 2;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+  }
+  @media screen and (max-width:700px){
+    .divaka{
+     position: absolute;
+     margin: auto;
+     display: block;
+     top: 0;
+     left: 0;
+     right: 0;
+     line-height: 1.1;
+     
+
+    }
+  }
